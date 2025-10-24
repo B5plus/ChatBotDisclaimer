@@ -1,0 +1,22 @@
+{
+  "name": "b5-plus-disclaimer",
+  "version": "1.0.0",
+  "description": "B5 Plus Group Disclaimer Page",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Static site - copying files to dist'",
+    "start": "node server.js",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "disclaimer",
+    "b5plus"
+  ],
+  "author": "B5 Plus Group",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
+}
+
