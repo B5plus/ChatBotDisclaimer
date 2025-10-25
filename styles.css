@@ -399,46 +399,9 @@ footer {
     width: 100%;
 }
 
-.checkbox-container {
-    text-align: center;
-    margin-top: 30px;
-    padding: 20px 0;
-}
-
-.checkbox-label {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    cursor: pointer;
-    user-select: none;
-}
-
-.checkbox-input {
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-    accent-color: #e50914;
-    transition: all 0.3s ease;
-}
-
-.checkbox-input:hover {
-    transform: scale(1.1);
-}
-
-.checkbox-input:checked {
-    accent-color: #0066cc;
-}
-
-.checkbox-text {
-    font-size: 14px;
-    color: #ffffff;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-}
-
 .button-container {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 20px 0;
 }
 
@@ -473,25 +436,14 @@ footer {
     z-index: -1;
 }
 
-.cta-button:hover:not(:disabled) {
+.cta-button:hover {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 12px 35px rgba(229, 9, 20, 0.5), 0 6px 20px rgba(0, 102, 204, 0.4);
     color: #ffffff;
 }
 
-.cta-button:hover:not(:disabled)::before {
+.cta-button:hover::before {
     left: 0;
-}
-
-.cta-button:disabled {
-    background: linear-gradient(135deg, #666666 0%, #888888 50%, #555555 100%);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    cursor: not-allowed;
-    opacity: 0.6;
-}
-
-.cta-button:disabled:hover {
-    transform: none;
 }
 
 @media (max-width: 768px) {

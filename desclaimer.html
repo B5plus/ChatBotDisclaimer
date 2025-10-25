@@ -30,31 +30,9 @@
 
             <p>By interacting, you agree to our Terms of use and Privacy Policy, interact respectfully and refrain from sharing sensitive personal or confidential business information.</p>
 
-            <div class="checkbox-container">
-                <label class="checkbox-label">
-                    <input type="checkbox" id="agreeCheckbox" class="checkbox-input">
-                    <span class="checkbox-text">I have read and agree to the disclaimer</span>
-                </label>
-            </div>
-
             <div class="button-container">
-                <button id="agreeButton" class="cta-button" disabled>I Agree</button>
+                <a href="https://www.b5plusgroup.com/" target="_blank" class="cta-button">I Agree</a>
             </div>
-
-            <script>
-                const checkbox = document.getElementById('agreeCheckbox');
-                const button = document.getElementById('agreeButton');
-
-                checkbox.addEventListener('change', function() {
-                    button.disabled = !this.checked;
-                });
-
-                button.addEventListener('click', function() {
-                    if (checkbox.checked) {
-                        window.open('https://www.b5plusgroup.com/', '_blank');
-                    }
-                });
-            </script>
         </div>
     </main>
 
